@@ -1,0 +1,37 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Mis Prácticas de Programación"
+theme = "ananke" 
+
+[frontMatter]
+format = "toml" 
+
+[params]
+  ananke_custom_css = "css/custom.css" 
+
+[menu]
+  [[menu.main]]
+    identifier = "practica0"
+    name = "Práctica 0"
+    url = "/practica0/"
+    weight = 10 # Controla el orden en el menú
+  [[menu.main]]
+    identifier = "practica1"
+    name = "Práctica 1"
+    url = "/practica1/"
+    weight = 20
+  [[menu.main]]
+    identifier = "practica2"
+    name = "Práctica 2"
+    url = "/practica2/"
+    weight = 30
+  [[menu.main]]
+    identifier = "practica3"
+    name = "Práctica 3"
+    url = "/practica3/"
+    weight = 40
+  [[menu.main]]
+    identifier = "practica4"
+    name = "Práctica 4"
+    url = "/practica4/"
+    weight = 50

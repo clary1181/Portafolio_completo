@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Práctica 4 | Mis Prácticas de Programación</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Hugo 0.144.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+    
+      <link href="/practica4/index.xml" rel="alternate" type="application/rss+xml" title="Mis Prácticas de Programación" />
+      <link href="/practica4/index.xml" rel="feed" type="application/rss+xml" title="Mis Prácticas de Programación" />
+      
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/practica4/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/practica4/">
+  <meta property="og:site_name" content="Mis Prácticas de Programación">
+  <meta property="og:title" content="Práctica 4">
+  <meta property="og:description" content="PRÁCTICA 4: PARADIGMA LÓGICO EL PARADIGMA LÓGICO
+El paradigma lógico se basa en una base de conocimiento que interactúa con una máquina para responder preguntas. A diferencia de la programación funcional, que se centra en procedimientos, la programación lógica se enfoca en el “qué” se sabe, no en el “cómo” se calcula.
+Prolog (Programming in Logic) es un lenguaje de programación declarativo que permite expresar la lógica computacional en términos de hechos y reglas.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta itemprop="name" content="Práctica 4">
+  <meta itemprop="description" content="PRÁCTICA 4: PARADIGMA LÓGICO EL PARADIGMA LÓGICO
+El paradigma lógico se basa en una base de conocimiento que interactúa con una máquina para responder preguntas. A diferencia de la programación funcional, que se centra en procedimientos, la programación lógica se enfoca en el “qué” se sabe, no en el “cómo” se calcula.
+Prolog (Programming in Logic) es un lenguaje de programación declarativo que permite expresar la lógica computacional en términos de hechos y reglas.">
+  <meta itemprop="datePublished" content="2025-05-29T19:50:00-07:00">
+  <meta itemprop="dateModified" content="2025-05-29T19:50:00-07:00">
+  <meta itemprop="wordCount" content="3319">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Práctica 4">
+  <meta name="twitter:description" content="PRÁCTICA 4: PARADIGMA LÓGICO EL PARADIGMA LÓGICO
+El paradigma lógico se basa en una base de conocimiento que interactúa con una máquina para responder preguntas. A diferencia de la programación funcional, que se centra en procedimientos, la programación lógica se enfoca en el “qué” se sabe, no en el “cómo” se calcula.
+Prolog (Programming in Logic) es un lenguaje de programación declarativo que permite expresar la lógica computacional en términos de hechos y reglas.">
+
+	
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+
+  <header>
+    <div class="pb3-m pb6-l bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Mis Prácticas de Programación
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/practica0/" title="Práctica 0 page">
+              Práctica 0
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/practica1/" title="Práctica 1 page">
+              Práctica 1
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/practica2/" title="Práctica 2 page">
+              Práctica 2
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/practica3/" title="Práctica 3 page">
+              Práctica 3
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/practica4/" title="Práctica 4 page">
+              Práctica 4
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+          Práctica 4
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray"><h1 id="práctica-4-paradigma-lógico">PRÁCTICA 4: PARADIGMA LÓGICO</h1>
+<!-- raw HTML omitted -->
+<p><strong>EL PARADIGMA LÓGICO</strong></p>
+<p>El paradigma lógico se basa en una base de conocimiento que interactúa con una máquina para responder preguntas. A diferencia de la programación funcional, que se centra en procedimientos, la programación lógica se enfoca en el &ldquo;qué&rdquo; se sabe, no en el &ldquo;cómo&rdquo; se calcula.</p>
+<p>Prolog (Programming in Logic) es un lenguaje de programación declarativo que permite expresar la lógica computacional en términos de hechos y reglas.<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>HECHOS</strong></p>
+<p>Los hechos representan afirmaciones verdaderas sobre el mundo. En Prolog, siguen una sintaxis específica:</p>
+<ul>
+<li>Los nombres de propiedades/relaciones comienzan con minúsculas.</li>
+<li>El nombre de la relación es el primer término.</li>
+<li>Los objetos aparecen como argumentos separados por comas y entre paréntesis.</li>
+<li>Un punto &ldquo;.&rdquo; debe terminar un hecho.</li>
+<li>Los objetos también pueden comenzar con dígitos o ser cadenas de caracteres entre comillas.</li>
+<li>Un hecho también se denomina predicado o cláusula.<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p>Sintaxis de Hechos: relation(object1, object2&hellip;)</p>
+<p>Ejemplos de Hechos en Prolog:</p>
+<ul>
+<li>cat(tom). (Tom es un gato)</li>
+<li>loves_to_eat(jorge, pasta). (A Jorge le encanta comer pasta)</li>
+<li>of_color(hair, black). (Tiene el pelo negro)</li>
+<li>loves_to_play_games(paty). (A Paty le encanta jugar)</li>
+<li>lazy(juan). (Juan es perezoso)
+<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p><strong>REGLAS</strong></p>
+<p>Las reglas definen relaciones condicionales, estableciendo que algo es cierto si una o más condiciones son ciertas.</p>
+<p>Sintaxis de Reglas: rule_name(object1, object2, &hellip;) :- fact/rule(object1, object2, &hellip;)</p>
+<p>Las conjunciones se representan con una coma (,) y las disyunciones con un punto y coma (;).</p>
+<p>Ejemplos de Reglas en Prolog:</p>
+<ul>
+<li>happy(lili) :- dances(lili). (Lili se alegra si baila)</li>
+<li>hungry(tom) :- search_for_food(tom). (Tom tiene hambre si busca comida)</li>
+<li>friends(jack, bili) :- lovesCricket(jack), lovesCricket(bili). (Jack y Bili son amigos si a ambos les encanta jugar al críquet)</li>
+<li>goToPlay(ryan) :- isClosed(school), free(ryan). (Irá a jugar si la escuela está cerrada y él está libre) <!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p><strong>CONSULTAS</strong></p>
+<p>Las consultas permiten interrogar la base de conocimiento para verificar si ciertos hechos o reglas son verdaderos.</p>
+<p>Ejemplos de Consultas:</p>
+<ul>
+<li>¿Es Tom un gato?</li>
+<li>¿A Juan le encanta la pasta?</li>
+<li>¿Está feliz Lili?</li>
+<li>¿Irá Ryan a jugar? <!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p><strong>BASES DE CONOCIMIENTO EN PROLOG</strong></p>
+<p>Una base de conocimiento en Prolog es un conjunto de hechos y reglas.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">girl</span>(<span style="color:#e6db74">priya</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">girl</span>(<span style="color:#e6db74">natasha</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">girl</span>(<span style="color:#e6db74">jasmin</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">can_cook</span>(<span style="color:#e6db74">priya</span>).
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">sing_a_song</span>(<span style="color:#e6db74">ana</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">listens_to_music</span>(<span style="color:#e6db74">rodrigo</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">listens_to_music</span>(<span style="color:#e6db74">ana</span>) :- <span style="color:#a6e22e">sing_a_song</span>(<span style="color:#e6db74">ana</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">happy</span>(<span style="color:#e6db74">ana</span>) :- <span style="color:#a6e22e">sing_a_song</span>(<span style="color:#e6db74">ana</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">happy</span>(<span style="color:#e6db74">rodrigo</span>) :- <span style="color:#a6e22e">listens_to_music</span>(<span style="color:#e6db74">rodrigo</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">plays_guitar</span>(<span style="color:#e6db74">rodrigo</span>) :- <span style="color:#a6e22e">listens_to_music</span>(<span style="color:#e6db74">rodrigo</span>).
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">can_cook</span>(<span style="color:#e6db74">priya</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">can_cook</span>(<span style="color:#e6db74">jasmin</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">can_cook</span>(<span style="color:#e6db74">timoteo</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">likes</span>(<span style="color:#e6db74">priya</span>,<span style="color:#e6db74">jasmin</span>) :- <span style="color:#a6e22e">can_cook</span>(<span style="color:#e6db74">jasmin</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">likes</span>(<span style="color:#e6db74">priya</span>,<span style="color:#e6db74">timoteo</span>) :- <span style="color:#a6e22e">can_cook</span>(<span style="color:#e6db74">timoteo</span>).
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>RELACIONES EN PROLOG</strong></p>
+<p>Prolog se utiliza para especificar las relaciones entre objetos y sus propiedades. Las relaciones pueden ser explícitamente definidas como hechos o inferidas a través de reglas.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">simon</span>, <span style="color:#e6db74">pedro</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">simon</span>, <span style="color:#e6db74">raj</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">male</span>(<span style="color:#e6db74">pedro</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">male</span>(<span style="color:#e6db74">raj</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">brother</span>(X,Y) :- <span style="color:#a6e22e">parent</span>(Z,X), <span style="color:#a6e22e">parent</span>(Z,Y), <span style="color:#a6e22e">male</span>(X), <span style="color:#a6e22e">male</span>(Y).
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">female</span>(<span style="color:#e6db74">pam</span>). <span style="color:#a6e22e">female</span>(<span style="color:#e6db74">liz</span>). <span style="color:#a6e22e">female</span>(<span style="color:#e6db74">pat</span>). <span style="color:#a6e22e">female</span>(<span style="color:#e6db74">ann</span>). <span style="color:#a6e22e">male</span>(<span style="color:#e6db74">jim</span>). <span style="color:#a6e22e">male</span>(<span style="color:#e6db74">bob</span>). <span style="color:#a6e22e">male</span>(<span style="color:#e6db74">tom</span>). <span style="color:#a6e22e">male</span>(<span style="color:#e6db74">pete</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">pam</span>,<span style="color:#e6db74">bob</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">tom</span>,<span style="color:#e6db74">bob</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">tom</span>,<span style="color:#e6db74">liz</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">bob</span>,<span style="color:#e6db74">ann</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">bob</span>,<span style="color:#e6db74">pat</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">pat</span>,<span style="color:#e6db74">jim</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">pete</span>,<span style="color:#e6db74">jim</span>).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mother</span>(X,Y):- <span style="color:#a6e22e">parent</span>(X,Y), <span style="color:#a6e22e">female</span>(X).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">father</span>(X,Y):- <span style="color:#a6e22e">parent</span>(X,Y), <span style="color:#a6e22e">male</span>(X).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">haschild</span>(X):- <span style="color:#a6e22e">parent</span>(X,<span style="color:#66d9ef">_</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">sister</span>(X,Y):- <span style="color:#a6e22e">parent</span>(Z,X), <span style="color:#a6e22e">parent</span>(Z,Y), <span style="color:#a6e22e">female</span>(X), X <span style="color:#e6db74">\==</span> Y.
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">brother</span>(X,Y):- <span style="color:#a6e22e">parent</span>(Z,X), <span style="color:#a6e22e">parent</span>(Z,Y), <span style="color:#a6e22e">male</span>(X), X <span style="color:#e6db74">\==</span> Y.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">grandparent</span>(X,Y):-<span style="color:#a6e22e">parent</span>(X,Z),<span style="color:#a6e22e">parent</span>(Z,Y).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">grandmother</span>(X,Z):-<span style="color:#a6e22e">mother</span>(X,Y),<span style="color:#a6e22e">parent</span>(Y,Z).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">grandfather</span>(X,Z):-<span style="color:#a6e22e">father</span>(X,Y),<span style="color:#a6e22e">parent</span>(Y,Z).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">wife</span>(X,Y):-<span style="color:#a6e22e">parent</span>(X,Z),<span style="color:#a6e22e">parent</span>(Y,Z),<span style="color:#a6e22e">female</span>(X),<span style="color:#a6e22e">male</span>(Y).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">uncle</span>(X,Z):-<span style="color:#a6e22e">brother</span>(X,Y),<span style="color:#a6e22e">parent</span>(Y,Z).
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>RECURSIÓN EN LAS RELACIONES FAMILIARES</strong></p>
+<p>La recursión es fundamental en Prolog para definir relaciones que pueden tener múltiples niveles, como la de &ldquo;predecesor&rdquo;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">female</span>(<span style="color:#e6db74">pam</span>). <span style="color:#a6e22e">female</span>(<span style="color:#e6db74">liz</span>). <span style="color:#a6e22e">female</span>(<span style="color:#e6db74">pat</span>). <span style="color:#a6e22e">female</span>(<span style="color:#e6db74">ann</span>). <span style="color:#a6e22e">male</span>(<span style="color:#e6db74">jim</span>). <span style="color:#a6e22e">male</span>(<span style="color:#e6db74">bob</span>). <span style="color:#a6e22e">male</span>(<span style="color:#e6db74">tom</span>). <span style="color:#a6e22e">male</span>(<span style="color:#e6db74">pete</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">pam</span>,<span style="color:#e6db74">bob</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">tom</span>,<span style="color:#e6db74">bob</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">tom</span>,<span style="color:#e6db74">liz</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">bob</span>,<span style="color:#e6db74">ann</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">bob</span>,<span style="color:#e6db74">pat</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">pat</span>,<span style="color:#e6db74">jim</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">pete</span>,<span style="color:#e6db74">jim</span>).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mother</span>(X,Y):- <span style="color:#a6e22e">parent</span>(X,Y), <span style="color:#a6e22e">female</span>(X).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">father</span>(X,Y):- <span style="color:#a6e22e">parent</span>(X,Y), <span style="color:#a6e22e">male</span>(X).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">haschild</span>(X):- <span style="color:#a6e22e">parent</span>(X,<span style="color:#66d9ef">_</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">sister</span>(X,Y):- <span style="color:#a6e22e">parent</span>(Z,X), <span style="color:#a6e22e">parent</span>(Z,Y), <span style="color:#a6e22e">female</span>(X), X <span style="color:#e6db74">\==</span> Y.
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">brother</span>(X,Y):- <span style="color:#a6e22e">parent</span>(Z,X), <span style="color:#a6e22e">parent</span>(Z,Y), <span style="color:#a6e22e">male</span>(X), X <span style="color:#e6db74">\==</span> Y.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">grandparent</span>(X,Y):-<span style="color:#a6e22e">parent</span>(X,Z),<span style="color:#a6e22e">parent</span>(Z,Y).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">grandmother</span>(X,Z):-<span style="color:#a6e22e">mother</span>(X,Y),<span style="color:#a6e22e">parent</span>(Y,Z).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">grandfather</span>(X,Z):-<span style="color:#a6e22e">father</span>(X,Y),<span style="color:#a6e22e">parent</span>(Y,Z).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">wife</span>(X,Y):-<span style="color:#a6e22e">parent</span>(X,Z),<span style="color:#a6e22e">parent</span>(Y,Z),<span style="color:#a6e22e">female</span>(X),<span style="color:#a6e22e">male</span>(Y).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">uncle</span>(X,Z):-<span style="color:#a6e22e">brother</span>(X,Y),<span style="color:#a6e22e">parent</span>(Y,Z).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">predecessor</span>(X, Z) :- <span style="color:#a6e22e">parent</span>(X, Z).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">predecessor</span>(X, Z) :- <span style="color:#a6e22e">parent</span>(X, Y),<span style="color:#a6e22e">predecessor</span>(Y, Z).
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>OBJETOS DE DATOS EN PROLOG</strong></p>
+<p>Los objetos de datos en Prolog se clasifican en objetos simples (constantes y variables) y estructuras.</p>
+<p>Ejemplos de Objetos de Datos (Términos)</p>
+<ul>
+<li>Átomos: tom, pat, x100, x_45</li>
+<li>Cadenas especiales: :-, =======&gt;, &hellip;, .:., ::=</li>
+<li>Cadenas de caracteres: &lsquo;Rubai&rsquo;, &lsquo;Hello, World!&rsquo;</li>
+<li>Números: 100, 1235, 2000.45</li>
+<li>Variables: X, Y, Xval, _X</li>
+<li>Estructuras: día(9, jun, 2017), punto(10, 25)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">hates</span>(<span style="color:#e6db74">jim</span>,<span style="color:#e6db74">tom</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">hates</span>(<span style="color:#e6db74">pat</span>,<span style="color:#e6db74">bob</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">hates</span>(<span style="color:#e6db74">dog</span>,<span style="color:#e6db74">fox</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">hates</span>(<span style="color:#e6db74">peter</span>,<span style="color:#e6db74">tom</span>).
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>OPERADORES EN PROLOG</strong></p>
+<p>Prolog soporta operadores de comparación y aritméticos.</p>
+<p>Operadores de Comparación</p>
+<ul>
+<li>X &gt; Y: X es mayor que Y</li>
+<li>X &lt; Y: X es menor que Y</li>
+<li>X &gt;= Y: X es mayor o igual que Y</li>
+<li>X =&lt; Y: X es menor o igual que Y</li>
+<li>X =:= Y: Los valores X e Y son iguales</li>
+<li>X == Y: Los valores X e Y no son iguales<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p>Operadores Aritméticos</p>
+<ul>
+<li>+: Suma</li>
+<li>-: Resta</li>
+<li>*: Multiplicación</li>
+<li>/: División</li>
+<li>**: Potencia</li>
+<li>//: División de enteros</li>
+<li>mod: Módulo</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">calc</span> <span style="color:#f92672">:-</span> X <span style="color:#f92672">is</span> <span style="color:#ae81ff">100</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">200</span>,<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;100 + 200 is &#39;</span>),<span style="color:#a6e22e">write</span>(X),<span style="color:#e6db74">nl</span>,
+</span></span><span style="display:flex;"><span>Y <span style="color:#f92672">is</span> <span style="color:#ae81ff">400</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">150</span>,<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;400 - 150 is &#39;</span>),<span style="color:#a6e22e">write</span>(Y),<span style="color:#e6db74">nl</span>,
+</span></span><span style="display:flex;"><span>Z <span style="color:#f92672">is</span> <span style="color:#ae81ff">10</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">300</span>,<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;10 * 300 is &#39;</span>),<span style="color:#a6e22e">write</span>(Z),<span style="color:#e6db74">nl</span>,
+</span></span><span style="display:flex;"><span>A <span style="color:#f92672">is</span> <span style="color:#ae81ff">100</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">30</span>,<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;100 / 30 is &#39;</span>),<span style="color:#a6e22e">write</span>(A),<span style="color:#e6db74">nl</span>,
+</span></span><span style="display:flex;"><span>B <span style="color:#f92672">is</span> <span style="color:#ae81ff">100</span> <span style="color:#f92672">//</span> <span style="color:#ae81ff">30</span>,<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;100 // 30 is &#39;</span>),<span style="color:#a6e22e">write</span>(B),<span style="color:#e6db74">nl</span>,
+</span></span><span style="display:flex;"><span>C <span style="color:#f92672">is</span> <span style="color:#ae81ff">100</span> <span style="color:#e6db74">**</span> <span style="color:#ae81ff">2</span>,<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;100 ** 2 is &#39;</span>),<span style="color:#a6e22e">write</span>(C),<span style="color:#e6db74">nl</span>,
+</span></span><span style="display:flex;"><span>D <span style="color:#f92672">is</span> <span style="color:#ae81ff">100</span> <span style="color:#f92672">mod</span> <span style="color:#ae81ff">30</span>,<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;100 mod 30 is &#39;</span>),<span style="color:#a6e22e">write</span>(D),<span style="color:#e6db74">nl</span>.
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>BUCLES Y RANGOS EN PROLOG</strong></p>
+<p>Prolog utiliza la recursión para simular bucles.</p>
+<p>Bucles</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">count_to_10</span>(<span style="color:#ae81ff">10</span>) :- <span style="color:#a6e22e">write</span>(<span style="color:#ae81ff">10</span>),<span style="color:#e6db74">nl</span>.
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">count_to_10</span>(X) :- <span style="color:#a6e22e">write</span>(X),<span style="color:#e6db74">nl</span>, Y <span style="color:#f92672">is</span> X <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, <span style="color:#a6e22e">count_to_10</span>(Y).
+</span></span></code></pre></div><p>Rango con Bucles</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">count_down</span>(L,H) :- <span style="color:#a6e22e">between</span>(L,H,Y), Z <span style="color:#f92672">is</span> H<span style="color:#f92672">-</span>Y, <span style="color:#a6e22e">write</span>(Z), <span style="color:#e6db74">nl</span>.
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">count_up</span>(L,H) :- <span style="color:#a6e22e">between</span>(L,H,Y), Z <span style="color:#f92672">is</span> L<span style="color:#f92672">+</span>Y, <span style="color:#a6e22e">write</span>(Z), <span style="color:#e6db74">nl</span>.
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>TOMA DE DECISIONES EN PROLOG</strong></p>
+<p>Las reglas en Prolog actúan como estructuras de toma de decisiones.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#75715e">% If-Then-Else statement</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">gt</span>(X,Y) :- X <span style="color:#f92672">&gt;=</span> Y,<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;X is greater or equal&#39;</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">gt</span>(X,Y) :- X <span style="color:#f92672">&lt;</span> Y,<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;X is smaller&#39;</span>).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% If-Elif-Else statement</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">gte</span>(X,Y) :- X <span style="color:#f92672">&gt;</span> Y,<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;X is greater&#39;</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">gte</span>(X,Y) :- X <span style="color:#f92672">=:=</span> Y,<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;X and Y are same&#39;</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">gte</span>(X,Y) :- X <span style="color:#f92672">&lt;</span> Y,<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;X is smaller&#39;</span>).
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>CONJUNCIONES Y DISYUNCIONES EN PROLOG</strong></p>
+<p>Se utilizan para combinar condiciones en las reglas.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">jhon</span>,<span style="color:#e6db74">bob</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">lili</span>,<span style="color:#e6db74">bob</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">male</span>(<span style="color:#e6db74">jhon</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">female</span>(<span style="color:#e6db74">lili</span>).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Conjunction Logic</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">father</span>(X,Y) :- <span style="color:#a6e22e">parent</span>(X,Y),<span style="color:#a6e22e">male</span>(X).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mother</span>(X,Y) :- <span style="color:#a6e22e">parent</span>(X,Y),<span style="color:#a6e22e">female</span>(X).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Disjunction Logic</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">child_of</span>(X,Y) :- <span style="color:#a6e22e">father</span>(X,Y);<span style="color:#a6e22e">mother</span>(X,Y).
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>LISTAS EN PROLOG</strong></p>
+<p>Las listas son estructuras de datos fundamentales en Prolog.</p>
+<p>Representación de Listas
+Las listas se representan como [rojo, verde, azul, blanco, oscuro]. Se dividen en una Head (primer elemento) y una Tail (el resto de la lista).
+Ejemplo: [a, b, c] se puede representar como [a | [b, c]].</p>
+<p>Operaciones Básicas en Listas</p>
+<ul>
+<li>Comprobación de membresía: Verifica si un elemento pertenece a la lista.</li>
+<li>Cálculo de longitud: Encuentra el número de elementos en una lista.</li>
+<li>Concatenación: Une dos listas.<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p>Operaciones con Listas</p>
+<ul>
+<li>Eliminar elementos: Remueve un elemento específico de una lista.</li>
+<li>Añadir elementos: Agrega una lista a otra como un elemento.</li>
+<li>Insertar elementos: Inserta un elemento en una lista.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">list_member</span>(X,[X|<span style="color:#66d9ef">_</span>]).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_member</span>(X,[<span style="color:#66d9ef">_</span>|TAIL]) :- <span style="color:#a6e22e">list_member</span>(X,TAIL).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_length</span>([],<span style="color:#ae81ff">0</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_length</span>([<span style="color:#66d9ef">_</span>|TAIL],N) :- <span style="color:#a6e22e">list_length</span>(TAIL,N1), N <span style="color:#f92672">is</span> N1 <span style="color:#f92672">+</span> <span style="color:#ae81ff">1.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_concat</span>([],L,L).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_concat</span>([X1|L1],L2,[X1|L3]) :- <span style="color:#a6e22e">list_concat</span>(L1,L2,L3).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_append</span>(A,T,T) :- <span style="color:#a6e22e">list_member</span>(A,T),!.
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_append</span>(A,T,[A|T]).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_delete</span>(X, [X], []).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_delete</span>(X,[X|L1], L1).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_delete</span>(X, [Y|L2], [Y|L1]) :- <span style="color:#a6e22e">list_delete</span>(X,L2,L1).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_insert</span>(X,L,R) :- <span style="color:#a6e22e">list_delete</span>(X,R,L).
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted -->
+Operaciones de Reposicionamiento de Elementos</p>
+<ul>
+<li>Permutación: Genera todas las posibles reordenaciones de los elementos de una lista.</li>
+<li>Elementos inversos: Ordena los elementos de una lista en orden inverso.</li>
+<li>Elementos desplazados: Desplaza un elemento de una lista rotacionalmente hacia la izquierda.</li>
+<li>Elementos ordenados: Verifica si una lista está ordenada</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">list_delete</span>(X,[X|L1], L1).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_delete</span>(X, [Y|L2], [Y|L1]) :- <span style="color:#a6e22e">list_delete</span>(X,L2,L1).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_perm</span>([],[]).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_perm</span>(L,[X|P]) :- <span style="color:#a6e22e">list_delete</span>(X,L,L1),<span style="color:#a6e22e">list_perm</span>(L1,P).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_concat</span>([],L,L).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_concat</span>([X1|L1],L2,[X1|L3]) :- <span style="color:#a6e22e">list_concat</span>(L1,L2,L3).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_rev</span>([],[]).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_rev</span>([Head|Tail],Reversed) :- <span style="color:#a6e22e">list_rev</span>(Tail, RevTail),<span style="color:#a6e22e">list_concat</span>(RevTail, [Head],Reversed).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_shift</span>([Head|Tail],Shifted) :- <span style="color:#a6e22e">list_concat</span>(Tail, [Head],Shifted).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_order</span>([X, Y | Tail]) :- X <span style="color:#f92672">=&lt;</span> Y, <span style="color:#a6e22e">list_order</span>([Y|Tail]).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_order</span>([X]).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_subset</span>([],[]).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_subset</span>([Head|Tail],[Head|Subset]) :- <span style="color:#a6e22e">list_subset</span>(Tail,Subset).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_subset</span>([Head|Tail],Subset) :- <span style="color:#a6e22e">list_subset</span>(Tail,Subset).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_member</span>(X,[X|<span style="color:#66d9ef">_</span>]).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_member</span>(X,[<span style="color:#66d9ef">_</span>|TAIL]) :- <span style="color:#a6e22e">list_member</span>(X,TAIL).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_union</span>([X|Y],Z,W) :- <span style="color:#a6e22e">list_member</span>(X,Z),<span style="color:#a6e22e">list_union</span>(Y,Z,W).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_union</span>([X|Y],Z,[X|W]) :- <span style="color:#e6db74">\+</span> <span style="color:#a6e22e">list_member</span>(X,Z), <span style="color:#a6e22e">list_union</span>(Y,Z,W).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_union</span>([],Z,Z).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_intersect</span>([X|Y],Z,[X|W]) :- <span style="color:#a6e22e">list_member</span>(X,Z), <span style="color:#a6e22e">list_intersect</span>(Y,Z,W).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_intersect</span>([X|Y],Z,W) :- <span style="color:#e6db74">\+</span> <span style="color:#a6e22e">list_member</span>(X,Z), <span style="color:#a6e22e">list_intersect</span>(Y,Z,W).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_intersect</span>([],Z,[]).
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>Otras Operaciones en Listas</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">list_even_len</span>([]).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_even_len</span>([Head|Tail]) :- <span style="color:#a6e22e">list_odd_len</span>(Tail).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_odd_len</span>([<span style="color:#66d9ef">_</span>]).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_odd_len</span>([Head|Tail]) :- <span style="color:#a6e22e">list_even_len</span>(Tail).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_divide</span>([],[],[]).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_divide</span>([X],[X],[]).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_divide</span>([X,Y|Tail], [X|List1],[Y|List2]) :- <span style="color:#a6e22e">list_divide</span>(Tail,List1,List2).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">max_of_two</span>(X,Y,X) :- X <span style="color:#f92672">&gt;=</span> Y.
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">max_of_two</span>(X,Y,Y) :- X <span style="color:#f92672">&lt;</span> Y.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_max_elem</span>([X],X).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_max_elem</span>([X,Y|Rest],Max) :- <span style="color:#a6e22e">list_max_elem</span>([Y|Rest],MaxRest), <span style="color:#a6e22e">max_of_two</span>(X,MaxRest,Max).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_sum</span>([],<span style="color:#ae81ff">0</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_sum</span>([Head|Tail], Sum) :- <span style="color:#a6e22e">list_sum</span>(Tail,SumTemp), Sum <span style="color:#f92672">is</span> Head <span style="color:#f92672">+</span> SumTemp.
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>ENTRADAS Y SALIDAS EN PROLOG</strong></p>
+<p>Prolog permite manejar la entrada y salida, incluyendo la manipulación de archivos y caracteres.
+<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>PREDICADOS INTEGRADOS</strong>
+Prolog ofrece una serie de predicados incorporados para verificar el tipo de una variable o término.</p>
+<p>Predicados Integrados</p>
+<ul>
+<li>var(X): Verdadero si X es una variable no instanciada.</li>
+<li>novar(X): Verdadero si X no es una variable o está instanciada.</li>
+<li>atom(X): Verdadero si X es un átomo.</li>
+<li>number(X): Verdadero si X es un número entero o real.</li>
+<li>integer(X): Verdadero si X es un entero.</li>
+<li>float(X): Verdadero si X es un número real.</li>
+<li>atomic(X): Verdadero si X es un número o un átomo.</li>
+<li>compound(X): Verdadero si X es un término compuesto.</li>
+<li>ground(X): Verdadero si X no contiene ninguna variable no instanciada.<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p><strong>PREDICADOS MATEMÁTICOS</strong>
+Prolog incluye predicados para operaciones matemáticas.</p>
+<p>Predicados Matemáticos</p>
+<ul>
+<li>random(L,H,X): Obtiene un valor aleatorio entre L y H.</li>
+<li>between(L,H,X): Obtiene una lista de valores entre L y H.</li>
+<li>succ(X,Y): Suma 1 a Y y lo asigna a X.</li>
+<li>abs(X): Obtiene el valor absoluto de X.</li>
+<li>max(X,Y): Obtiene el mayor entre X e Y.</li>
+<li>min(X,Y): Obtiene el menor entre X e Y.</li>
+<li>round(X): Redondea al valor más cercano a X.</li>
+<li>truncate(X): Convierte un número real a entero, eliminando la fracción.</li>
+<li>floor(X): Redondea hacia abajo.</li>
+<li>ceiling(X): Redondea hacia arriba.</li>
+<li>sqrt(X): Raíz cuadrada de X.<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p><strong>ESTRUCTURAS DE DATOS Y RECURSIÓN</strong></p>
+<p>En Prolog, las estructuras de datos suelen representarse mediante términos compuestos (funciones con argumentos) o, más comúnmente, mediante listas. La recursión es la piedra angular de la programación en Prolog, ya que no existen bucles tradicionales (for, while). En su lugar, se definen reglas que se llaman a sí mismas, con una o más cláusulas base que detienen la recursión. Esta forma de pensar recursiva es fundamental para procesar estructuras de datos.</p>
+<p>Listas: Membresía de una lista</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">list_member</span>(X, [X|<span style="color:#66d9ef">_</span>]).            <span style="color:#75715e">% Caso base: X es la cabeza de la lista</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_member</span>(X, [<span style="color:#66d9ef">_</span>|Tail]) :-      <span style="color:#75715e">% Caso recursivo: X no es la cabeza, buscar en la cola</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">list_member</span>(X, Tail).
+</span></span></code></pre></div><p>Listas: Longitud de una lista</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">list_length</span>([], <span style="color:#ae81ff">0</span>).              <span style="color:#75715e">% Caso base: la longitud de una lista vacía es 0</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_length</span>([<span style="color:#66d9ef">_</span>|Tail], N) :-      <span style="color:#75715e">% Caso recursivo: la longitud es 1 + la longitud de la cola</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">list_length</span>(Tail, N1),
+</span></span><span style="display:flex;"><span>    N <span style="color:#f92672">is</span> N1 <span style="color:#f92672">+</span> <span style="color:#ae81ff">1.</span>
+</span></span></code></pre></div><p>Recursión en relaciones familiares (Predecesor):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#75715e">% Hechos base (padres)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">pam</span>, <span style="color:#e6db74">bob</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">tom</span>, <span style="color:#e6db74">bob</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">tom</span>, <span style="color:#e6db74">liz</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">bob</span>, <span style="color:#e6db74">ann</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">bob</span>, <span style="color:#e6db74">pat</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">pat</span>, <span style="color:#e6db74">jim</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">pete</span>, <span style="color:#e6db74">jim</span>).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Regla: X es predecesor de Z si X es padre de Z (caso base)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">predecessor</span>(X, Z) :- <span style="color:#a6e22e">parent</span>(X, Z).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Regla: X es predecesor de Z si X es padre de Y, y Y es predecesor de Z (caso recursivo)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">predecessor</span>(X, Z) :- <span style="color:#a6e22e">parent</span>(X, Y), <span style="color:#a6e22e">predecessor</span>(Y, Z).
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>BACKTRACKING</strong></p>
+<p>El backtracking es el mecanismo fundamental de ejecución de Prolog. Cuando Prolog intenta satisfacer una meta, busca una cláusula que la satisfaga. Si hay múltiples cláusulas o si una cláusula tiene múltiples sub-metas, Prolog las intenta una por una. Si una sub-meta falla, Prolog &ldquo;retrocede&rdquo; (backtracks) a la última elección y prueba una alternativa. Esto le permite encontrar todas las posibles soluciones para una consulta.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#75715e">% Parte relevante de family.pl</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">female</span>(<span style="color:#e6db74">pam</span>). <span style="color:#a6e22e">female</span>(<span style="color:#e6db74">liz</span>). <span style="color:#a6e22e">female</span>(<span style="color:#e6db74">pat</span>). <span style="color:#a6e22e">female</span>(<span style="color:#e6db74">ann</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">male</span>(<span style="color:#e6db74">jim</span>). <span style="color:#a6e22e">male</span>(<span style="color:#e6db74">bob</span>). <span style="color:#a6e22e">male</span>(<span style="color:#e6db74">tom</span>). <span style="color:#a6e22e">male</span>(<span style="color:#e6db74">pete</span>).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">pam</span>,<span style="color:#e6db74">bob</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">tom</span>,<span style="color:#e6db74">bob</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">tom</span>,<span style="color:#e6db74">liz</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">bob</span>,<span style="color:#e6db74">ann</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">bob</span>,<span style="color:#e6db74">pat</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">pat</span>,<span style="color:#e6db74">jim</span>). <span style="color:#a6e22e">parent</span>(<span style="color:#e6db74">pete</span>,<span style="color:#e6db74">jim</span>).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Regla brother(X,Y): X es hermano de Y si tienen el mismo padre Z, X es hombre y X no es Y</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">brother</span>(X,Y):- <span style="color:#a6e22e">parent</span>(Z,X), <span style="color:#a6e22e">parent</span>(Z,Y), <span style="color:#a6e22e">male</span>(X), X <span style="color:#e6db74">\==</span> Y.
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>DIFERENTE Y NO</strong></p>
+<ul>
+<li>
+<p>Diferente (== o dif): Se utiliza para expresar que dos términos no son idénticos (no son el mismo término o no unifican).</p>
+<ul>
+<li>X == Y: Falla si X e Y están unificados al mismo término (incluso si son variables instanciadas al mismo valor). Es un chequeo de identidad.</li>
+<li>dif(X, Y): Es un predicado más potente de diferencia real. Tiene un comportamiento declarativo: dif(X,Y) significa que X e Y deben ser diferentes. Si en algún momento de la ejecución se vuelven idénticos, dif/2 falla. Si permanecen como variables no instanciadas pero dif/2 se mantiene, se añade una restricción de diferencia entre ellas.</li>
+</ul>
+</li>
+<li>
+<p>Negación por Fallo (+): Se utiliza para expresar que una meta no es demostrable (no es verdadera). Si la meta a la que se aplica + falla, entonces + Goal tiene éxito. Si Goal tiene éxito, entonces + Goal falla. Es importante entender que esto es &ldquo;negación por fallo&rdquo; (Closed World Assumption), no una negación lógica estricta. Si algo no puede ser probado, se asume que es falso.</p>
+</li>
+</ul>
+<p>Diferente (==)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#75715e">% En el contexto de la regla brother</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">brother</span>(X,Y):- <span style="color:#a6e22e">parent</span>(Z,X), <span style="color:#a6e22e">parent</span>(Z,Y), <span style="color:#a6e22e">male</span>(X), X <span style="color:#e6db74">\==</span> Y.
+</span></span></code></pre></div><p>Negación por Fallo (+)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#75715e">% Base de conocimiento simple</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">estudiante</span>(<span style="color:#e6db74">juan</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">estudiante</span>(<span style="color:#e6db74">maria</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">profesor</span>(<span style="color:#e6db74">pedro</span>).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Regla: alguien que no es estudiante</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">no_estudiante</span>(X) :- <span style="color:#e6db74">\+</span> <span style="color:#a6e22e">estudiante</span>(X).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Regla: alguien que no es profesor Y no es estudiante (falla)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">no_profesor_y_no_estudiante</span>(X) :- <span style="color:#e6db74">\+</span> <span style="color:#a6e22e">profesor</span>(X), <span style="color:#e6db74">\+</span> <span style="color:#a6e22e">estudiante</span>(X).
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>ESTUDIO DE CASO: ÁRBOL</strong></p>
+<p>Los árboles son estructuras de datos jerárquicas fundamentales en informática. En Prolog, se modelan de forma natural usando términos compuestos y recursión. Un nodo puede representarse como un término node(Value, LeftChild, RightChild), y la ausencia de un hijo como empty.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#75715e">% Representación de un árbol:</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% empty - árbol vacío</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% node(Value, LeftSubtree, RightSubtree) - un nodo con un valor y dos subárboles</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Definición de un árbol de ejemplo:</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">%       10</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">%      /  \</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">%     5    15</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">%    / \  / \</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">%   2  7 12 18</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">tree_example</span>(
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">node</span>(<span style="color:#ae81ff">10</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">node</span>(<span style="color:#ae81ff">5</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">node</span>(<span style="color:#ae81ff">2</span>, <span style="color:#e6db74">empty</span>, <span style="color:#e6db74">empty</span>),
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">node</span>(<span style="color:#ae81ff">7</span>, <span style="color:#e6db74">empty</span>, <span style="color:#e6db74">empty</span>)
+</span></span><span style="display:flex;"><span>        ),
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">node</span>(<span style="color:#ae81ff">15</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">node</span>(<span style="color:#ae81ff">12</span>, <span style="color:#e6db74">empty</span>, <span style="color:#e6db74">empty</span>),
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">node</span>(<span style="color:#ae81ff">18</span>, <span style="color:#e6db74">empty</span>, <span style="color:#e6db74">empty</span>)
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Recorrido In-Order (izquierda, raíz, derecha)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">inorder_traversal</span>(<span style="color:#e6db74">empty</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">inorder_traversal</span>(<span style="color:#a6e22e">node</span>(Value, Left, Right)) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">inorder_traversal</span>(Left),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">write</span>(Value), <span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39; &#39;</span>),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">inorder_traversal</span>(Right).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Recorrido Pre-Order (raíz, izquierda, derecha)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">preorder_traversal</span>(<span style="color:#e6db74">empty</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">preorder_traversal</span>(<span style="color:#a6e22e">node</span>(Value, Left, Right)) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">write</span>(Value), <span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39; &#39;</span>),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">preorder_traversal</span>(Left),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">preorder_traversal</span>(Right).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Recorrido Post-Order (izquierda, derecha, raíz)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">postorder_traversal</span>(<span style="color:#e6db74">empty</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">postorder_traversal</span>(<span style="color:#a6e22e">node</span>(Value, Left, Right)) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">postorder_traversal</span>(Left),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">postorder_traversal</span>(Right),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">write</span>(Value), <span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39; &#39;</span>).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Buscar un elemento en el árbol</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">search_tree</span>(Value, <span style="color:#a6e22e">node</span>(Value, <span style="color:#66d9ef">_</span>, <span style="color:#66d9ef">_</span>)). <span style="color:#75715e">% Caso base: el valor está en la raíz</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">search_tree</span>(Value, <span style="color:#a6e22e">node</span>(RootValue, Left, <span style="color:#66d9ef">_</span>)) :-
+</span></span><span style="display:flex;"><span>    Value <span style="color:#f92672">&lt;</span> RootValue,                     <span style="color:#75715e">% Si el valor es menor, buscar en el subárbol izquierdo</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">search_tree</span>(Value, Left).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">search_tree</span>(Value, <span style="color:#a6e22e">node</span>(RootValue, <span style="color:#66d9ef">_</span>, Right)) :-
+</span></span><span style="display:flex;"><span>    Value <span style="color:#f92672">&gt;</span> RootValue,                     <span style="color:#75715e">% Si el valor es mayor, buscar en el subárbol derecho</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">search_tree</span>(Value, Right).
+</span></span></code></pre></div><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><strong>PROGRAMAS BÁSICOS</strong></p>
+<p>Los &ldquo;programas básicos&rdquo; en Prolog se refieren a la implementación de funcionalidades comunes y problemas algorítmicos simples utilizando la lógica declarativa y la recursión.</p>
+<ul>
+<li>Factorial:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">factorial</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>).                 <span style="color:#75715e">% Caso base: el factorial de 0 es 1</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">factorial</span>(N, Result) :-
+</span></span><span style="display:flex;"><span>    N <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>,                     <span style="color:#75715e">% N debe ser mayor que 0</span>
+</span></span><span style="display:flex;"><span>    N1 <span style="color:#f92672">is</span> N <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>,               <span style="color:#75715e">% Calcula N-1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">factorial</span>(N1, Result1),    <span style="color:#75715e">% Llama recursivamente para factorial(N-1)</span>
+</span></span><span style="display:flex;"><span>    Result <span style="color:#f92672">is</span> N <span style="color:#f92672">*</span> Result1.     <span style="color:#75715e">% Multiplica N por el resultado de factorial (N-1)</span>
+</span></span></code></pre></div></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Fibonacci:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">fibonacci</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>).                 <span style="color:#75715e">% Caso base: Fibonacci de 0 es 0</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">fibonacci</span>(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>).                 <span style="color:#75715e">% Caso base: Fibonacci de 1 es 1</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">fibonacci</span>(N, Result) :-
+</span></span><span style="display:flex;"><span>    N <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>    N1 <span style="color:#f92672">is</span> N <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>    N2 <span style="color:#f92672">is</span> N <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fibonacci</span>(N1, Result1),      <span style="color:#75715e">% Llama recursivamente para F(N-1)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fibonacci</span>(N2, Result2),      <span style="color:#75715e">% Llama recursivamente para F(N-2)</span>
+</span></span><span style="display:flex;"><span>    Result <span style="color:#f92672">is</span> Result1 <span style="color:#f92672">+</span> Result2. <span style="color:#75715e">% Suma los resultados</span>
+</span></span></code></pre></div></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Mínimo y Máximo:</p>
+<p>Encontrar el mínimo o máximo de un conjunto de elementos es una operación   común. En Prolog, se realiza a menudo mediante recursión, comparando  elementos uno a uno.<!-- raw HTML omitted --></p>
+<p>Máximo de dos números:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">max_of_two</span>(X, Y, X) :- X <span style="color:#f92672">&gt;=</span> Y.
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">max_of_two</span>(X, Y, Y) :- X <span style="color:#f92672">&lt;</span> Y.
+</span></span></code></pre></div><p>Máximo elemento de una lista:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">list_max_elem</span>([X], X). <span style="color:#75715e">% Caso base: el máximo de una lista con un elemento es ese elemento</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_max_elem</span>([X,Y|Rest], Max) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">list_max_elem</span>([Y|Rest], MaxRest), <span style="color:#75715e">% Obtiene el máximo del resto de la   lista</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">max_of_two</span>(X, MaxRest, Max).     <span style="color:#75715e">% Compara el primer elemento con el    máximo del resto</span>
+</span></span></code></pre></div><p>Mínimo elemento de una lista</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a6e22e">min_of_two</span>(X, Y, X) :- X <span style="color:#f92672">=&lt;</span> Y.
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">min_of_two</span>(X, Y, Y) :- X <span style="color:#f92672">&gt;</span> Y.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_min_elem</span>([X], X).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_min_elem</span>([X,Y|Rest], Min) :-
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">list_min_elem</span>([Y|Rest], MinRest),
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">min_of_two</span>(X, MinRest, Min).
+</span></span></code></pre></div></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Circuitos Resistivos:</p>
+<p>Modelar circuitos resistivos en Prolog implica definir cómo se conectan los resistores y cómo se calcula su resistencia equivalente. Se pueden definir reglas para conexiones en serie y en paralelo.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#75715e">% Hechos que definen resistores y sus valores</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">resistor</span>(<span style="color:#e6db74">r1</span>, <span style="color:#ae81ff">10</span>). <span style="color:#75715e">% Resistor r1 tiene 10 Ohms</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">resistor</span>(<span style="color:#e6db74">r2</span>, <span style="color:#ae81ff">20</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">resistor</span>(<span style="color:#e6db74">r3</span>, <span style="color:#ae81ff">5</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">resistor</span>(<span style="color:#e6db74">r4</span>, <span style="color:#ae81ff">15</span>).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Resistencia en serie</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">resistencia_serie</span>([], <span style="color:#ae81ff">0</span>). <span style="color:#75715e">% La resistencia de una conexión en serie vacía es 0</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">resistencia_serie</span>([R|Resto], Total) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">resistor</span>(R, ValorR),               <span style="color:#75715e">% Obtiene el valor del resistor actual</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">resistencia_serie</span>(Resto, TotalResto), <span style="color:#75715e">% Calcula la resistencia del resto    en serie</span>
+</span></span><span style="display:flex;"><span>    Total <span style="color:#f92672">is</span> ValorR <span style="color:#f92672">+</span> TotalResto.      <span style="color:#75715e">% Suma para obtener el total</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Resistencia en paralelo (para dos resistores)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Para más de dos, se necesitaría una regla recursiva o un acumulador.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">resistencia_paralelo</span>(R1, R2, Total) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">resistor</span>(R1, Val1),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">resistor</span>(R2, Val2),
+</span></span><span style="display:flex;"><span>    Total <span style="color:#f92672">is</span> (Val1 <span style="color:#f92672">*</span> Val2) <span style="color:#f92672">/</span> (Val1 <span style="color:#f92672">+</span> Val2).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Resistencia en paralelo para una lista de resistores (más general)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Esta versión maneja el inverso de la suma de inversos.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Requiere un predicado auxiliar para sumar inversos</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">sum_inverses</span>([], <span style="color:#ae81ff">0</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">sum_inverses</span>([R|Resto], Sum) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">resistor</span>(R, Val),
+</span></span><span style="display:flex;"><span>    SumResto <span style="color:#f92672">is</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>Val,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">sum_inverses</span>(Resto, SumRestoTotal),
+</span></span><span style="display:flex;"><span>    Sum <span style="color:#f92672">is</span> SumResto <span style="color:#f92672">+</span> SumRestoTotal.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">resistencia_paralelo_lista</span>(List, Total) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">sum_inverses</span>(List, InverseSum),
+</span></span><span style="display:flex;"><span>    Total <span style="color:#f92672">is</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">/</span> InverseSum.
+</span></span></code></pre></div></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Torre de Hanoi:</p>
+<p>Un problema clásico de recursión que consiste en mover una pila de discos de un poste de origen a un poste de destino, utilizando un poste auxiliar, siguiendo tres reglas:</p>
+<ul>
+<li>Solo se puede mover un disco a la vez.</li>
+<li>Un disco más grande no puede colocarse encima de uno más pequeño.</li>
+<li>Cada disco debe estar en uno de los tres postes.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#75715e">% hanoi(N, Origen, Destino, Auxiliar)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">hanoi</span>(<span style="color:#ae81ff">1</span>, Origen, Destino, <span style="color:#66d9ef">_</span>) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;Mover disco 1 de &#39;</span>), <span style="color:#a6e22e">write</span>(Origen), <span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39; a &#39;</span>), <span style="color:#a6e22e">write</span>(Destino),    <span style="color:#e6db74">nl</span>.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">hanoi</span>(N, Origen, Destino, Auxiliar) :-
+</span></span><span style="display:flex;"><span>    N <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>    M <span style="color:#f92672">is</span> N <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">% 1. Mover N-1 discos de Origen a Auxiliar, usando Destino como auxiliar</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">hanoi</span>(M, Origen, Auxiliar, Destino),
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">% 2. Mover el disco N (el más grande) de Origen a Destino</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;Mover disco &#39;</span>), <span style="color:#a6e22e">write</span>(N), <span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39; de &#39;</span>), <span style="color:#a6e22e">write</span>(Origen), <span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39; a    &#39;</span>), <span style="color:#a6e22e">write</span>(Destino), <span style="color:#e6db74">nl</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">% 3. Mover N-1 discos de Auxiliar a Destino, usando Origen como auxiliar</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">hanoi</span>(M, Auxiliar, Destino, Origen).
+</span></span></code></pre></div></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Listas Enlazadas:</p>
+<p>Aunque Prolog tiene soporte nativo para listas, a veces es útil modelar listas enlazadas explícitamente para entender cómo se construyen y manipulan. Una lista enlazada consiste en nodos, donde cada nodo contiene un valor y una referencia (o &ldquo;puntero&rdquo; lógico) al siguiente nodo.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#75715e">% Representación de un nodo: nodo(Valor, SiguienteNodo)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% &#39;null&#39; representa el final de la lista.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Definición de una lista enlazada de ejemplo:</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% head_node(node(10, node(20, node(30, null)))).</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mi_lista_enlazada</span>(<span style="color:#a6e22e">node</span>(<span style="color:#ae81ff">10</span>, <span style="color:#a6e22e">node</span>(<span style="color:#ae81ff">20</span>, <span style="color:#a6e22e">node</span>(<span style="color:#ae81ff">30</span>, <span style="color:#e6db74">null</span>)))).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Predicado para recorrer e imprimir los valores de una lista enlazada</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">recorrer_lista_enlazada</span>(<span style="color:#e6db74">null</span>).
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">recorrer_lista_enlazada</span>(<span style="color:#a6e22e">node</span>(Valor, Siguiente)) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">write</span>(Valor), <span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39; &#39;</span>),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">recorrer_lista_enlazada</span>(Siguiente).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Predicado para agregar un elemento al final de la lista enlazada (recursivo)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">agregar_final</span>(Elemento, <span style="color:#e6db74">null</span>, <span style="color:#a6e22e">node</span>(Elemento, <span style="color:#e6db74">null</span>)). <span style="color:#75715e">% Caso base: lista vacía</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">agregar_final</span>(Elemento, <span style="color:#a6e22e">node</span>(Valor, Siguiente), <span style="color:#a6e22e">node</span>(Valor, NuevaSiguiente)) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">agregar_final</span>(Elemento, Siguiente, NuevaSiguiente).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Predicado para encontrar un elemento en la lista enlazada</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">buscar_en_lista_enlazada</span>(Elemento, <span style="color:#a6e22e">node</span>(Elemento, <span style="color:#66d9ef">_</span>)). <span style="color:#75715e">% Caso base: elemento    en el nodo actual</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">buscar_en_lista_enlazada</span>(Elemento, <span style="color:#a6e22e">node</span>(<span style="color:#66d9ef">_</span>, Siguiente)) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">buscar_en_lista_enlazada</span>(Elemento, Siguiente).
+</span></span></code></pre></div></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>El Mono y el Plátano:</p>
+<p>Este es un problema clásico en inteligencia artificial que ilustra la planificación y la búsqueda en un espacio de estados. El objetivo es que un mono, que está en una habitación con una caja y unos plátanos en el techo, alcance los plátanos. Las acciones del mono cambian el estado del mundo.</p>
+<p><em>Modelo de Estado:</em>
+Podemos representar el estado del mundo con un término que contenga la  posición del mono, la posición de la caja, la posición de los plátanos y si el   mono tiene los plátanos.</p>
+<p>estado(PosMono, PosCaja, PosPlatanos, Tiene)</p>
+<ul>
+<li>PosMono: en(lugar) o en(caja)</li>
+<li>PosCaja: en(lugar)</li>
+<li>PosPlatanos: en(lugar) o en(techo)</li>
+<li>Tiene: nada o platanos</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#75715e">% Estado inicial: mono en el suelo en la puerta, caja en la ventana, plátanos   en el techo, mono no tiene nada.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">initial_state</span>(<span style="color:#a6e22e">estado</span>(<span style="color:#a6e22e">en</span>(<span style="color:#e6db74">mono</span>, <span style="color:#e6db74">puerta</span>), <span style="color:#a6e22e">en</span>(<span style="color:#e6db74">caja</span>, <span style="color:#e6db74">ventana</span>), <span style="color:#a6e22e">en</span>(<span style="color:#e6db74">platanos</span>, <span style="color:#e6db74">techo</span>),  <span style="color:#a6e22e">tiene</span>(<span style="color:#e6db74">mono</span>, <span style="color:#e6db74">nada</span>))).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Estado objetivo: mono tiene los plátanos</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">goal_state</span>(<span style="color:#a6e22e">estado</span>(<span style="color:#66d9ef">_</span>, <span style="color:#66d9ef">_</span>, <span style="color:#66d9ef">_</span>, <span style="color:#a6e22e">tiene</span>(<span style="color:#e6db74">mono</span>, <span style="color:#e6db74">platanos</span>))).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Acciones y cómo cambian el estado:</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% 1. El mono camina de un lugar a otro en el suelo.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">%    walk(Desde, Hasta)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">action</span>(<span style="color:#a6e22e">estado</span>(<span style="color:#a6e22e">en</span>(<span style="color:#e6db74">mono</span>, From), PosCaja, PosPlatanos, Tiene),
+</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">walk</span>(From, To),
+</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">estado</span>(<span style="color:#a6e22e">en</span>(<span style="color:#e6db74">mono</span>, To), PosCaja, PosPlatanos, Tiene)) :-
+</span></span><span style="display:flex;"><span>    From <span style="color:#e6db74">\==</span> To.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% 2. El mono empuja la caja de un lugar a otro.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">%    push(CajaDesde, CajaHasta, MonoDesde, MonoHasta)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">action</span>(<span style="color:#a6e22e">estado</span>(<span style="color:#a6e22e">en</span>(<span style="color:#e6db74">mono</span>, PosCaja), <span style="color:#a6e22e">en</span>(<span style="color:#e6db74">caja</span>, PosCaja), PosPlatanos, Tiene),
+</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">push</span>(PosCaja, To),
+</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">estado</span>(<span style="color:#a6e22e">en</span>(<span style="color:#e6db74">mono</span>, To), <span style="color:#a6e22e">en</span>(<span style="color:#e6db74">caja</span>, To), PosPlatanos, Tiene)) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">% El mono debe estar en la misma posición que la caja para empujarla.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">true</span>. <span style="color:#75715e">% La condición ya está en la cabeza del predicado.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% 3. El mono sube a la caja.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">%    climb_on_box(Lugar)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">action</span>(<span style="color:#a6e22e">estado</span>(<span style="color:#a6e22e">en</span>(<span style="color:#e6db74">mono</span>, Lugar), <span style="color:#a6e22e">en</span>(<span style="color:#e6db74">caja</span>, Lugar), PosPlatanos, Tiene),
+</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">climb_on_box</span>(Lugar),
+</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">estado</span>(<span style="color:#a6e22e">en</span>(<span style="color:#e6db74">mono</span>, <span style="color:#e6db74">en_caja</span>), <span style="color:#a6e22e">en</span>(<span style="color:#e6db74">caja</span>, Lugar), PosPlatanos, Tiene)).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% 4. El mono coge los plátanos (solo si está en la caja y los plátanos están    en el techo)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">%    grab_bananas()</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">action</span>(<span style="color:#a6e22e">estado</span>(<span style="color:#a6e22e">en</span>(<span style="color:#e6db74">mono</span>, <span style="color:#e6db74">en_caja</span>), <span style="color:#a6e22e">en</span>(<span style="color:#e6db74">caja</span>, PosCaja), <span style="color:#a6e22e">en</span>(<span style="color:#e6db74">platanos</span>, <span style="color:#e6db74">techo</span>), <span style="color:#a6e22e">tiene</span>  (<span style="color:#e6db74">mono</span>, <span style="color:#e6db74">nada</span>)),
+</span></span><span style="display:flex;"><span>       <span style="color:#e6db74">grab_bananas</span>,
+</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">estado</span>(<span style="color:#a6e22e">en</span>(<span style="color:#e6db74">mono</span>, <span style="color:#e6db74">en_caja</span>), <span style="color:#a6e22e">en</span>(<span style="color:#e6db74">caja</span>, PosCaja), <span style="color:#a6e22e">en</span>(<span style="color:#e6db74">platanos</span>, <span style="color:#e6db74">techo</span>), <span style="color:#a6e22e">tiene</span>  (<span style="color:#e6db74">mono</span>, <span style="color:#e6db74">platanos</span>))).
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Predicado para encontrar un camino (solución)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% solve(EstadoActual, ListaDeAccionesInvertida, EstadoObjetivo)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">solve</span>(Goal, Path, Goal) :- <span style="color:#a6e22e">reverse</span>(Path, ReversedPath), <span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#39;Solucion: &#39;</span>),    <span style="color:#a6e22e">write</span>(ReversedPath), <span style="color:#e6db74">nl</span>.
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">solve</span>(CurrentState, Path, Goal) :-
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">action</span>(CurrentState, Action, NextState),
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">\+</span> <span style="color:#a6e22e">member</span>(NextState, Path), <span style="color:#75715e">% Evitar bucles, no visitar estados ya  visitados (simple, para ejemplos pequeños)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">solve</span>(NextState, [Action|Path], Goal).
+</span></span></code></pre></div></li>
+</ul>
+</section>
+    <section class="flex-ns mt5 flex-wrap justify-around">
+      
+    </section></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Mis Prácticas de Programación 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

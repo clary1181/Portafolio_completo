@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Práctica 3 on Mis Prácticas de Programación</title>
+    <link>http://localhost:1313/practica3/</link>
+    <description>Recent content in Práctica 3 on Mis Prácticas de Programación</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/practica3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/practica3/todo/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/practica3/todo/changelog/</guid>
+      <description>&lt;h1 id=&#34;changelog-for-todo&#34;&gt;Changelog for &lt;code&gt;todo&lt;/code&gt;&lt;/h1&gt;&#xA;&lt;p&gt;All notable changes to this project will be documented in this file.&lt;/p&gt;&#xA;&lt;p&gt;The format is based on &lt;a href=&#34;https://keepachangelog.com/en/1.0.0/&#34;&gt;Keep a Changelog&lt;/a&gt;,&#xA;and this project adheres to the&#xA;&lt;a href=&#34;https://pvp.haskell.org/&#34;&gt;Haskell Package Versioning Policy&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;unreleased&#34;&gt;Unreleased&lt;/h2&gt;&#xA;&lt;h2 id=&#34;0100---yyyy-mm-dd&#34;&gt;0.1.0.0 - YYYY-MM-DD&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/practica3/todo/practica3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/practica3/todo/practica3/</guid>
+      <description>&lt;h1 id=&#34;práctica-3-aplicación-en-haskell&#34;&gt;PRÁCTICA 3: APLICACIÓN EN HASKELL&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;strong&gt;FUNCIONAMIENTO DE UNA APLICACIÓN EN HASKELL&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./todo/img/imgs1.png&#34; alt=&#34;im1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Primeramente utilizamos el comando $curl -sSL &lt;a href=&#34;https://get.haskellstack.org/&#34;&gt;https://get.haskellstack.org/&lt;/a&gt; | sh para instalar Haskell con mi computadora&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./todo/img/imgs.2png&#34; alt=&#34;im1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Seguido de ello se ejecuto el comando stack en la consola y eso nos mostró comandos similares a este.&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./todo/img/imgs3.png&#34; alt=&#34;im1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Para escribir una aplicación de tareas pendientes con Haskell, primero configuraremos el entorno de desarrollo de Haskell con Stack. Para ello, utilizamos el comando  $stack new &lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

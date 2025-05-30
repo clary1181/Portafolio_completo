@@ -1,0 +1,18 @@
+body {
+    text-align: left;
+}
+
+/* Ananke a menudo usa clases para el contenido, si la anterior no funciona del todo: */
+.f6, /* Clases de tamaño de fuente que a veces Ananke usa en p */
+.pa0, .pa1, .pa2, .pa3, .pa4, .pa5, .pa6, .pa7, /* Clases de padding */
+.ph0, .ph1, .ph2, .ph3, .ph4, .ph5, .ph6, .ph7, /* Clases de padding horizontal */
+.pv0, .pv1, .pv2, .pv3, .pv4, .pv5, .pv6, .pv7, /* Clases de padding vertical */
+p,
+h1, h2, h3, h4, h5, h6,
+ul, ol, li,
+blockquote,
+table,
+.post-content, /* Clase común para el contenido de posts/páginas */
+.content { /* Otra clase común */
+    text-align: left !important; /* ¡important fuerza la aplicación! */
+}
